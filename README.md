@@ -4,11 +4,14 @@ the effect in html and css. I hope you like it. Made in under 1 hour, there migh
 
 [Original Design Inspiration](https://www.tiktok.com/@roizenx/video/7329961394260987141)
 
-# Example
-https://www.upio.dev/demonstrations/loveletter/
+# Examples
 
-Video demonstration:
-https://github.com/notpoiu/LoveLetterEffect/assets/75510171/77154163-ba41-4020-89f2-84cfa040eaee
+**Demonstration:**
+
+https://github.com/notpoiu/LoveLetterEffect/assets/75510171/a0077a67-67dc-42f1-b5fc-3478d05ee9c5.mp4
+
+**Website:**
+https://www.upio.dev/demonstrations/loveletter/
 
 
 # How to use
