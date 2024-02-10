@@ -7,6 +7,10 @@ the effect in html and css. I hope you like it. Made in under 1 hour, there migh
 # Example
 https://www.upio.dev/demonstrations/loveletter/
 
+Video demonstration:
+https://github.com/notpoiu/LoveLetterEffect/assets/75510171/77154163-ba41-4020-89f2-84cfa040eaee
+
+
 # How to use
 Open `message.txt` and change the letter, you may use markdown formatting.
 
