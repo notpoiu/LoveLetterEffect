@@ -49,6 +49,11 @@ document.addEventListener('DOMContentLoaded', function() {
         
         const auto_css_height = msg_container.scrollHeight + 20; // 20 extra padding
         msg_container.style.height = auto_css_height + "px";
+
+        // time it takes for the css to finally finish panning
+        setTimeout(() => {
+            msg_container.style.overflowY = "scroll";
+        }, 1500);
     });
 
 });

@@ -42,10 +42,19 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    overflow: hidden;
-
+    
+    overflow-x: hidden;
     transition: height 1.5s ease;
+
+    max-height: calc(100vh - 100px);
+    min-width: 350px;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#message-container::-webkit-scrollbar {
+    display: none;
 }
 
 #message {
