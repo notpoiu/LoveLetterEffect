@@ -8,6 +8,9 @@
     https://www.upio.dev
     https://e-z.bio/upio
 
+
+    UPDATE:
+    - old code was trash so i am rewriting for fun
 -->
 
 <!DOCTYPE html>
@@ -23,20 +26,41 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.2/markdown-it.min.js"></script>
 
-        <link rel="stylesheet" href="css/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+            body {
+                font-family: 'Inter', sans-serif;
+            }
+
+            h1, h2, h3, h4, h5, h6 {
+                margin: 0;
+            }
+
+            #message-container {
+                background-color: oklch(78.33% 0.108 326.54);
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.455);
+                
+                transition: height 1.5s ease-in-out;
+            }
+        </style>
+
         <script src="js/script.js"></script>
     </head>
     <body>
-        <div class="container">
-            <div id="message-container" style="display: none;height: 0px;overflow-y: hidden;">
-                <p id="message"></p>
+        <div class="flex justify-center items-center flex-col w-[100vw] h-[100vh]">
+            <div id="message-container" class="flex flex-col items-center hidden h-0 overflow-y-hidden max-h-[80vh] max-w-[50vw] max-md:max-w-[70vw] max-sm:max-w-[80vw] max-sm:max-h-[80vh]">
+                <div class="w-[90%] mt-2">
+                    <article id="message" class="prose"></article>
+                </div>
             </div>
 
-            <div class="heart-container" style="margin-top: 0px;">
+            <div class="heart-container" class="mt-2">
                 <i id="solid-heart" class="fa-solid fa-heart fa-beat fa-2x" style="color: #ff0000;"></i>
             </div>
         </div>
-
-        <p style="position: fixed; bottom: 5px;right: 20px;">Made by <a href="https://www.upio.dev">upio</a> 😱</p>
     </body>
 </html>
