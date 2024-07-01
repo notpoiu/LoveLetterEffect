@@ -3,7 +3,7 @@
 > If you need any help setting this up, please join my discord server, i dont want to friend request everyone 😭<br>[discord server](https://discord.gg/nue7sWhThk)
 
 So recently ive been browsing tiktok when i found videos where people write a website love letter thing. I just found one of the videos and replicated
-the effect in html and css. I hope you like it. Made in under 1 hour, there might be some bugs for mobile. (Yes im that lazy to put min-height)
+the effect in html and css. I hope you like it. Made in under 1 hour, there might be some bugs for mobile.
 
 [Original Design Inspiration](https://www.tiktok.com/@roizenx/video/7329961394260987141)
 
