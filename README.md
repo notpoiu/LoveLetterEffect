@@ -14,7 +14,7 @@ the effect in html and css. I hope you like it. Made in under 1 hour, there migh
 https://github.com/notpoiu/LoveLetterEffect/assets/75510171/a0077a67-67dc-42f1-b5fc-3478d05ee9c5.mp4
 
 **Website:**
-https://www.upio.dev/demonstrations/loveletter/
+https://upio-love-leter-effect.vercel.app/
 
 
 # How to use
