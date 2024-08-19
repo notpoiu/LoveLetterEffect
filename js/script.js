@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
         tempdata.did_open = true;
         
         msg_container.classList.remove("hidden");
-        msg_container.classList.add("block");
+        msg_container.classList.add("flex");
         
         let auto_css_height = msg_container.scrollHeight + 20; // 20 extra padding
         msg_container.classList.remove("h-0");
