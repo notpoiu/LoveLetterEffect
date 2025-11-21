@@ -1,28 +1,21 @@
 # Tiktok Love letter effect
 > [!IMPORTANT]  
-> If you need any help setting this up, please join my discord server, i dont want to friend request everyone 😭<br>[discord server](https://discord.gg/nue7sWhThk)
+> Edit the message to be more personal inside `message.txt` (use [markdown formatting](https://www.markdownguide.org/cheat-sheet/)). Also, if you do not want other people seeing your letter: **PRIVATE your repository**.
 
-So recently ive been browsing tiktok when i found videos where people write a website love letter thing. I just found one of the videos and replicated
-the effect in html and css. I hope you like it. Made in under 1 hour, there might be some bugs for mobile.
+A recreation of a love letter website I found on tiktok.
 
-[Original Design Inspiration](https://www.tiktok.com/@roizenx/video/7329961394260987141)
+[Original Tiktok Video](https://www.tiktok.com/@roizenx/video/7329961394260987141)
 
-# Examples
-
-**Demonstration:**
+# Demonstrations
 
 https://github.com/notpoiu/LoveLetterEffect/assets/75510171/a0077a67-67dc-42f1-b5fc-3478d05ee9c5.mp4
 
 **Website:**
-https://upio-love-leter-effect.vercel.app/
-
-
-# How to use
-Open `message.txt` and change the letter, you may use markdown formatting.
+~~https://upio-love-leter-effect.vercel.app/~~
+> My vercel hobby account is paused. You likely do not have to worry, this only happens if you abuse vercel's free tier (which i did)
 
 # How to run
 To run locally, open `index.html` in your browser.
-However if you want to actually host this website, you can use github pages or use vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fnotpoiu%2FLoveLetterEffect.git)
 
