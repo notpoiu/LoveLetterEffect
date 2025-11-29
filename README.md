@@ -1,6 +1,6 @@
 # Tiktok Love letter effect
 > [!IMPORTANT]  
-> Edit the message to be more personal inside `message.txt` (use [markdown formatting](https://www.markdownguide.org/cheat-sheet/)). Also, if you do not want other people seeing your letter: **PRIVATE your repository**.
+> Edit the message to be more personal inside `message.txt` (use [markdown formatting](https://www.markdownguide.org/cheat-sheet/)). Also, if you do not want other people seeing your letter: **PRIVATE your repository and do NOT create a pull request**.
 
 A recreation of a love letter website I found on tiktok.
 
